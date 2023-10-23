@@ -1,0 +1,20 @@
+{
+    "name": "nguyenquocanhtai/shopbanhang",
+    "description": "xay dung website ban hang-thay loi day",
+    "authors": [
+        {
+            "name": "Nguyen Quoc Anh Tai",
+            "email": "ngtai3008@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        },
+        "files": [
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require": {}
+}
